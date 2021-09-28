@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS plataforma (
 
 CREATE TABLE IF NOT EXISTS game (
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-	nome VARCHAR(100),
+	nome VARCHAR(250),
 	plataforma INT,
 	ano_lancamento INT,
 	genero INT,
